@@ -6,6 +6,9 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
+      <View>
+        <Text style={styles.header}>HEader</Text>
+      </View>
     </View>
   )
 }
@@ -16,5 +19,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+  },
+  header: {
+    backgroundColor: "red",
+    borderColor: "green",
   },
 })
